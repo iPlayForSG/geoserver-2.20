@@ -60,11 +60,11 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
-    - name: Setup Java JDK
-      uses: actions/setup-java@v4.2.1
-      with:
-        java-version: '8'
-        distribution: 'oracle'
+    #- name: Setup Java JDK
+      #uses: actions/setup-java@v4.2.1
+      #with:
+        #java-version: '8'
+        #distribution: 'oracle'
 
     # Add any setup steps before running the `github/codeql-action/init` action.
     # This includes steps like installing compilers or runtimes (`actions/setup-node`
